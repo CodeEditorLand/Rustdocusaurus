@@ -1,14 +1,37 @@
 {
-  "name": "rustdocusaurus-action",
-  "license": "MIT",
-  "version": "1.0.2",
-  "private": true,
-  "scripts": {
-    "run-source": "node index.js",
-    "build": "ncc build index.js -o dist"
-  },
-  "dependencies": {
-    "@actions/core": "^1.2.4",
-    "@zeit/ncc": "^0.22.3"
-  }
+	"name": "rustdocusaurus-action",
+	"version": "0.0.1",
+	"private": false,
+	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
+	"bugs": {
+		"url": "https://github.com/CodeEditorLand/Foundation/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/Foundation.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Land",
+		"email": "Land@Playform.Cloud",
+		"url": "HTTPS://Land.Playform.Cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"build": "ncc build index.js -o dist",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
+		"run-source": "node index.js"
+	},
+	"dependencies": {
+		"@actions/core": "^1.2.4",
+		"@zeit/ncc": "^0.22.3"
+	},
+	"devDependencies": {
+		"@playform/build": "0.0.5",
+		"@playform/document": "0.0.6"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
