@@ -24,8 +24,8 @@
 		"run-source": "node index.js"
 	},
 	"dependencies": {
-		"@actions/core": "^1.2.4",
-		"@zeit/ncc": "^0.22.3"
+		"@actions/core": "1.2.4",
+		"@zeit/ncc": "0.22.3"
 	},
 	"devDependencies": {
 		"@playform/build": "0.0.5",
