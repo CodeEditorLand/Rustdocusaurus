@@ -1,37 +1,16 @@
 {
-	"name": "rustdocusaurus-action",
-	"version": "0.0.1",
-	"private": false,
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/Rustdocusaurus#readme",
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/Rustdocusaurus/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/Rustdocusaurus.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
-	"author": {
-		"name": "Land",
-		"email": "Land@Playform.Cloud",
-		"url": "HTTPS://Land.Playform.Cloud"
-	},
-	"type": "module",
-	"scripts": {
-		"Document": "Document 'Source/**/*.ts'",
-		"build": "ncc build index.js -o dist",
-		"prepublishOnly": "Build 'Source/**/*.ts'",
-		"run-source": "node index.js"
-	},
 	"dependencies": {
 		"@actions/core": "1.10.1",
 		"@zeit/ncc": "0.22.3"
 	},
 	"devDependencies": {
-		"@playform/build": "0.0.7",
-		"@playform/document": "0.0.6"
+		"@playform/build": "0.0.7"
 	},
-	"publishConfig": {
-		"access": "public"
+	"name": "rustdocusaurus-action",
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"build": "ncc build index.js -o dist",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
+		"run-source": "node index.js"
 	}
 }
