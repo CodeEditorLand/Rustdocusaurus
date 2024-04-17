@@ -1,11 +1,27 @@
 {
-	"author": {
-		"email": "Land@Playform.Cloud",
-		"name": "Land",
-		"url": "HTTPS://Land.Playform.Cloud"
-	},
+	"name": "rustdocusaurus-action",
+	"version": "0.0.1",
+	"private": false,
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/Rustdocusaurus#readme",
 	"bugs": {
 		"url": "HTTPS://GitHub.Com/CodeEditorLand/Rustdocusaurus/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/Rustdocusaurus.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Land",
+		"email": "Land@Playform.Cloud",
+		"url": "HTTPS://Land.Playform.Cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"build": "ncc build index.js -o dist",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
+		"run-source": "node index.js"
 	},
 	"dependencies": {
 		"@actions/core": "1.10.1",
@@ -15,23 +31,7 @@
 		"@playform/build": "0.0.7",
 		"@playform/document": "0.0.6"
 	},
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/Rustdocusaurus#readme",
-	"license": "SEE LICENSE IN LICENSE",
-	"name": "rustdocusaurus-action",
-	"private": false,
 	"publishConfig": {
 		"access": "public"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/Rustdocusaurus.git"
-	},
-	"scripts": {
-		"Document": "Document 'Source/**/*.ts'",
-		"build": "ncc build index.js -o dist",
-		"prepublishOnly": "Build 'Source/**/*.ts'",
-		"run-source": "node index.js"
-	},
-	"type": "module",
-	"version": "0.0.1"
+	}
 }
