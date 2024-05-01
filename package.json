@@ -1,4 +1,12 @@
 {
+	"author": {
+		"email": "Land@PlayForm.Cloud",
+		"name": "🌆 — Land —",
+		"url": "HTTPS://Land.PlayForm.Cloud"
+	},
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/RustDocusaurus/issues"
+	},
 	"dependencies": {
 		"deepmerge": "^4.2.2",
 		"hast-util-to-mdast": "^7.1.0",
@@ -12,17 +20,36 @@
 		"unified": "^9.0.0"
 	},
 	"devDependencies": {
+		"@playform/build": "0.0.7",
+		"@playform/document": "0.0.6",
 		"covector": "^0.3.0",
 		"pre-commit": "^1.2.2"
 	},
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/RustDocusaurus#readme",
+	"keywords": [
+		"land"
+	],
+	"license": "SEE LICENSE IN LICENSE",
 	"main": "index.js",
 	"name": "rustdocusaurus",
 	"pre-commit": [
 		"pre-commit",
 		"tag"
 	],
+	"private": false,
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/RustDocusaurus.git"
+	},
 	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
 		"pre-commit": "cd github-action && yarn build",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
 		"tag": "git tag v1 -f"
-	}
+	},
+	"type": "module",
+	"version": "0.0.1"
 }
