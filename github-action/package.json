@@ -1,11 +1,11 @@
 {
+	"dependencies": {
+		"@actions/core": "^1.10.1",
+		"@zeit/ncc": "^0.22.3"
+	},
 	"name": "rustdocusaurus-action",
 	"scripts": {
 		"build": "ncc build index.js -o dist",
 		"run-source": "node index.js"
-	},
-	"dependencies": {
-		"@actions/core": "^1.10.1",
-		"@zeit/ncc": "^0.22.3"
 	}
 }
