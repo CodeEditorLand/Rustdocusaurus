@@ -5,7 +5,7 @@
 		"run-source": "node index.js"
 	},
 	"dependencies": {
-		"@actions/core": "1.2.4",
+		"@actions/core": "1.9.1",
 		"@zeit/ncc": "0.22.3"
 	}
 }
