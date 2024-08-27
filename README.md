@@ -2,7 +2,7 @@
 
 Experiment to turn a rustdoc generated site into MDX content.
 
-## Usage
+## 🛠️ Usage
 
 **Once you have generated your Rust documentation**, you may use this kind of
 script:
