@@ -1,14 +1,4 @@
 {
-	"name": "rustdocusaurus",
-	"main": "index.js",
-	"scripts": {
-		"pre-commit": "cd github-action && yarn build",
-		"tag": "git tag v1 -f"
-	},
-	"pre-commit": [
-		"pre-commit",
-		"tag"
-	],
 	"dependencies": {
 		"deepmerge": "4.3.1",
 		"hast-util-to-mdast": "10.1.0",
@@ -24,5 +14,15 @@
 	"devDependencies": {
 		"covector": "0.12.3",
 		"pre-commit": "1.2.2"
+	},
+	"main": "index.js",
+	"name": "rustdocusaurus",
+	"pre-commit": [
+		"pre-commit",
+		"tag"
+	],
+	"scripts": {
+		"pre-commit": "cd github-action && yarn build",
+		"tag": "git tag v1 -f"
 	}
 }
