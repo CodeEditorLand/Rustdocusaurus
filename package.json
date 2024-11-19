@@ -1,7 +1,7 @@
 {
 	"dependencies": {
 		"deepmerge": "4.3.1",
-		"hast-util-to-mdast": "10.1.0",
+		"hast-util-to-mdast": "10.1.1",
 		"html-entities": "2.5.2",
 		"jsdom": "25.0.1",
 		"node-html-parser": "6.1.13",
