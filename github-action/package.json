@@ -3,6 +3,7 @@
 		"@actions/core": "1.11.1",
 		"@zeit/ncc": "0.22.3"
 	},
+	"devDependencies": {},
 	"name": "rustdocusaurus-action",
 	"scripts": {
 		"build": "ncc build index.js -o dist",
